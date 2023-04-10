@@ -1,6 +1,5 @@
 import React from 'react';
 import "../Styles/Navbar.css"
-import profile from '../Assets/profile.jpg'
 import { Link } from 'react-router-dom';
 
 
