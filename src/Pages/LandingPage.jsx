@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Row, Col, Form, FormGroup, Label, Input, Button } from 'reactstrap';
 import Footer from '../Components/Footer';
-import 'bootstrap/dist/css/bootstrap.min.css'; // import Bootstrap CSS
 import { Carousel } from 'react-bootstrap';
 import Navbar from '../Components/Navbar';
 import { data } from "../Data/BusData";
@@ -49,7 +48,6 @@ function LandingPage() {
             destination: '',
             date: ''
         });
-        { console.log(filteredData) }
 
         Navigate('/Available-buses', { state: { data: filteredData } })
 
@@ -57,7 +55,7 @@ function LandingPage() {
 
 
     useEffect(() => {
-        { window.alert('Kindly choose date as 11-04-2023 to see full functionality!') }
+        window.alert('Kindly choose date as 11-04-2023 to see full functionality!')
     }, [])
 
     const backgroundImage = {
