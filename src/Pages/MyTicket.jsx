@@ -14,7 +14,7 @@ const MyTicket = () => {
     return (
         <div >
             <Navbar />
-            <div className='d-flex justify-content-center '>
+            {Bdata != null ? <div className='d-flex justify-content-center '>
                 <div className='mt-5 shadow  mb-5 bg-light rounded justify-content-center px-5 pb-5'>
                     <span className='d-flex justify-content-center' style={{ fontSize: '40px', }}>&#9989;</span>
                     <h3 className=' d-flex justify-content-center' style={{ fontFamily: 'serif' }}>Booking has been confirmed</h3>
@@ -49,7 +49,22 @@ const MyTicket = () => {
                     </div>
 
                 </div>
-            </div>
+            </div> : <div className='d-flex justify-content-center' style={{ flexDirection: 'column', alignItems: 'center' }}>
+                <img src="https://thumbs.dreamstime.com/b/sitting-child-sad-icon-element-mobile-concept-web-apps-glyph-can-be-used-white-background-130425111.jpg" alt="NoBus" style={{ height: '300px', width: '300px', marginTop: '-50px' }} />
+                <p className='' style={{
+                    fontWeight: "bold",
+                    fontFamily: "sans-serif",
+                    fontSize: "30px",
+                    color: "#333",
+                    textTransform: "uppercase",
+                    letterSpacing: "2px",
+                    textAlign: "center",
+                    textShadow: "2px 2px #ccc",
+
+                    alignItems: 'center'
+                }}>
+                    Sorry, No Bookings Available</p>
+            </div>}
             <Footer />
         </div>
     )

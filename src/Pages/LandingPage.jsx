@@ -229,7 +229,7 @@ function LandingPage() {
                                                 <p>Rating: 4.0/5</p>
                                             </div>
                                         </div>
-                                        <p className="mt-3 text-muted">Awesome travel experience with reserve Excellent Staff.</p>
+                                        <p className="mt-3 text-muted">Awesome service, Always a best time with reserve.</p>
                                     </div>
                                 </div>
                             </div>
@@ -243,7 +243,7 @@ function LandingPage() {
                                                 <p>Rating: 4.5/5</p>
                                             </div>
                                         </div>
-                                        <p className="mt-3 text-muted">Awesome travel experience with reserve Excellent Staff.</p>
+                                        <p className="mt-3 text-muted">Bus was clean and the journey was smooth. Reached on time.</p>
                                     </div>
                                 </div>
                             </div>
