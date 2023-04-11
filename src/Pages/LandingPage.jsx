@@ -243,7 +243,7 @@ function LandingPage() {
                                                 <p>Rating: 4.5/5</p>
                                             </div>
                                         </div>
-                                        <p className="mt-3 text-muted">Bus was clean and the journey was smooth. Reached on time.</p>
+                                        <p className="mt-3 text-muted">Bus was clean and the journey was smooth.</p>
                                     </div>
                                 </div>
                             </div>
